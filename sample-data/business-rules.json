@@ -1,0 +1,32 @@
+[
+  {
+    "id": "BR-001",
+    "requirement_id": "FR-001",
+    "rule": "An order cannot be confirmed until payment authorization succeeds."
+  },
+  {
+    "id": "BR-002",
+    "requirement_id": "FR-003",
+    "rule": "A duplicate payment request with the same transaction reference must not create a second charge."
+  },
+  {
+    "id": "BR-003",
+    "requirement_id": "FR-004",
+    "rule": "Only eligible failed transactions may be retried."
+  },
+  {
+    "id": "BR-004",
+    "requirement_id": "FR-007",
+    "rule": "Refunds cannot exceed the remaining refundable transaction amount."
+  },
+  {
+    "id": "BR-005",
+    "requirement_id": "FR-008",
+    "rule": "High-risk transactions must complete fraud validation before payment confirmation."
+  },
+  {
+    "id": "BR-006",
+    "requirement_id": "FR-014",
+    "rule": "A customer notification must be initiated after a confirmed payment failure."
+  }
+]
