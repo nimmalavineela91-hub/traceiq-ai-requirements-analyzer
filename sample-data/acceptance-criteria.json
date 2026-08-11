@@ -1,0 +1,67 @@
+[
+  {
+    "id": "AC-001",
+    "user_story_id": "US-001",
+    "criteria": "Given a customer submits valid payment details, when authorization succeeds, then the system shall mark the payment as Authorized."
+  },
+  {
+    "id": "AC-002",
+    "user_story_id": "US-001",
+    "criteria": "Given payment authorization fails, when the gateway returns a failure response, then the order shall not be confirmed."
+  },
+  {
+    "id": "AC-003",
+    "user_story_id": "US-002",
+    "criteria": "Given a payment fails, when the failure is confirmed, then the system shall notify the customer."
+  },
+  {
+    "id": "AC-004",
+    "user_story_id": "US-003",
+    "criteria": "Given the same payment request is submitted more than once, when the system detects the same transaction reference, then only one payment shall be processed."
+  },
+  {
+    "id": "AC-005",
+    "user_story_id": "US-004",
+    "criteria": "Given a failed payment is eligible for retry, when the customer retries payment, then the system shall submit a new authorization attempt."
+  },
+  {
+    "id": "AC-006",
+    "user_story_id": "US-005",
+    "criteria": "Given payment authorization succeeds, when the transaction is confirmed, then the system shall create the customer order."
+  },
+  {
+    "id": "AC-007",
+    "user_story_id": "US-006",
+    "criteria": "Given an authorized support user searches for a transaction, when the transaction exists, then the latest payment status shall be displayed."
+  },
+  {
+    "id": "AC-008",
+    "user_story_id": "US-007",
+    "criteria": "Given a transaction is eligible for refund, when an authorized user submits a full refund, then the system shall initiate the refund for the full eligible amount."
+  },
+  {
+    "id": "AC-009",
+    "user_story_id": "US-007",
+    "criteria": "Given a transaction supports partial refunds, when an authorized user enters a valid partial amount, then the system shall process that partial refund."
+  },
+  {
+    "id": "AC-010",
+    "user_story_id": "US-008",
+    "criteria": "Given a transaction is classified as high risk, when payment processing begins, then fraud validation shall complete before payment confirmation."
+  },
+  {
+    "id": "AC-021",
+    "user_story_id": "US-009",
+    "criteria": "Given a customer payment fails, when the payment gateway returns a failure status, then a customer notification shall be triggered."
+  },
+  {
+    "id": "AC-022",
+    "user_story_id": "US-009",
+    "criteria": "Given a payment failure notification is generated, then the message shall include the transaction status and a customer-friendly failure message."
+  },
+  {
+    "id": "AC-023",
+    "user_story_id": "US-010",
+    "criteria": "Given an authorized business user provides a valid transaction identifier, when a search is submitted, then matching transaction details shall be displayed."
+  }
+]
