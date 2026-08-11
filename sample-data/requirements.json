@@ -1,0 +1,122 @@
+[
+  {
+    "id": "FR-001",
+    "title": "Payment Authorization",
+    "description": "The system shall authorize customer payments through the configured payment gateway before confirming an order.",
+    "module": "Payments",
+    "priority": "High",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-002",
+    "title": "Payment Failure Notification",
+    "description": "The system shall notify the customer when a payment transaction fails.",
+    "module": "Notifications",
+    "priority": "High",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-003",
+    "title": "Duplicate Payment Prevention",
+    "description": "The system shall prevent duplicate payment processing when the same transaction request is submitted multiple times.",
+    "module": "Payments",
+    "priority": "High",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-004",
+    "title": "Payment Retry",
+    "description": "The system shall allow eligible failed payment transactions to be retried.",
+    "module": "Payments",
+    "priority": "Medium",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-005",
+    "title": "Order Confirmation",
+    "description": "The system shall create an order only after successful payment authorization.",
+    "module": "Orders",
+    "priority": "High",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-006",
+    "title": "Transaction Status Tracking",
+    "description": "The system shall maintain the current status of each payment transaction.",
+    "module": "Payments",
+    "priority": "High",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-007",
+    "title": "Refund Processing",
+    "description": "The system shall support full and partial refunds for eligible transactions.",
+    "module": "Refunds",
+    "priority": "High",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-008",
+    "title": "Fraud Validation",
+    "description": "The system shall perform fraud-risk validation before completing high-risk payment transactions.",
+    "module": "Risk",
+    "priority": "High",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-009",
+    "title": "Customer Receipt",
+    "description": "The system shall generate a digital receipt after successful order completion.",
+    "module": "Notifications",
+    "priority": "Medium",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-010",
+    "title": "Payment Audit Trail",
+    "description": "The system shall maintain an auditable history of payment status changes.",
+    "module": "Reporting",
+    "priority": "High",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-011",
+    "title": "Failed Transaction Reporting",
+    "description": "The system shall provide reporting for failed payment transactions and failure reasons.",
+    "module": "Reporting",
+    "priority": "Medium",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-012",
+    "title": "Customer Payment History",
+    "description": "Authorized users shall be able to view a customer's historical payment transactions.",
+    "module": "Customer",
+    "priority": "Medium",
+    "status": "Draft"
+  },
+  {
+    "id": "FR-013",
+    "title": "Refund Notification",
+    "description": "The system shall notify customers when a refund is initiated or completed.",
+    "module": "Notifications",
+    "priority": "Medium",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-014",
+    "title": "Payment Failure Communication",
+    "description": "The customer must receive a notification after payment failure.",
+    "module": "Notifications",
+    "priority": "High",
+    "status": "Approved"
+  },
+  {
+    "id": "FR-015",
+    "title": "Transaction Search",
+    "description": "Authorized business users shall be able to search transactions using order ID, customer ID, transaction ID, and date range.",
+    "module": "Reporting",
+    "priority": "Medium",
+    "status": "Approved"
+  }
+]
