@@ -1,0 +1,72 @@
+[
+  {
+    "id": "TC-101",
+    "acceptance_criteria_id": "AC-001",
+    "title": "Successful Payment Authorization",
+    "type": "Positive",
+    "status": "Covered"
+  },
+  {
+    "id": "TC-102",
+    "acceptance_criteria_id": "AC-002",
+    "title": "Failed Authorization Prevents Order Confirmation",
+    "type": "Negative",
+    "status": "Covered"
+  },
+  {
+    "id": "TC-103",
+    "acceptance_criteria_id": "AC-004",
+    "title": "Duplicate Payment Request Prevention",
+    "type": "Negative",
+    "status": "Covered"
+  },
+  {
+    "id": "TC-104",
+    "acceptance_criteria_id": "AC-005",
+    "title": "Retry Eligible Failed Payment",
+    "type": "Positive",
+    "status": "Covered"
+  },
+  {
+    "id": "TC-105",
+    "acceptance_criteria_id": "AC-006",
+    "title": "Create Order After Successful Payment",
+    "type": "Positive",
+    "status": "Covered"
+  },
+  {
+    "id": "TC-106",
+    "acceptance_criteria_id": "AC-008",
+    "title": "Process Full Refund",
+    "type": "Positive",
+    "status": "Covered"
+  },
+  {
+    "id": "TC-107",
+    "acceptance_criteria_id": "AC-009",
+    "title": "Process Partial Refund",
+    "type": "Positive",
+    "status": "Covered"
+  },
+  {
+    "id": "TC-108",
+    "acceptance_criteria_id": "AC-010",
+    "title": "Validate High Risk Transaction",
+    "type": "Positive",
+    "status": "Covered"
+  },
+  {
+    "id": "TC-114",
+    "acceptance_criteria_id": "AC-021",
+    "title": "Trigger Notification After Payment Failure",
+    "type": "Positive",
+    "status": "Covered"
+  },
+  {
+    "id": "TC-115",
+    "acceptance_criteria_id": "AC-022",
+    "title": "Validate Payment Failure Notification Content",
+    "type": "Positive",
+    "status": "Covered"
+  }
+]
