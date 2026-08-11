@@ -1,0 +1,72 @@
+[
+  {
+    "id": "US-001",
+    "requirement_id": "FR-001",
+    "title": "Authorize Customer Payment",
+    "story": "As a customer, I want my payment to be authorized securely so that my order can be confirmed.",
+    "priority": "High"
+  },
+  {
+    "id": "US-002",
+    "requirement_id": "FR-002",
+    "title": "Receive Payment Failure Notification",
+    "story": "As a customer, I want to be notified when my payment fails so that I can take corrective action.",
+    "priority": "High"
+  },
+  {
+    "id": "US-003",
+    "requirement_id": "FR-003",
+    "title": "Prevent Duplicate Payments",
+    "story": "As a customer, I want duplicate payment requests to be prevented so that I am not charged more than once.",
+    "priority": "High"
+  },
+  {
+    "id": "US-004",
+    "requirement_id": "FR-004",
+    "title": "Retry Failed Payment",
+    "story": "As a customer, I want to retry an eligible failed payment so that I can complete my purchase.",
+    "priority": "Medium"
+  },
+  {
+    "id": "US-005",
+    "requirement_id": "FR-005",
+    "title": "Confirm Order After Payment",
+    "story": "As a customer, I want my order to be created only after successful payment authorization so that order status remains accurate.",
+    "priority": "High"
+  },
+  {
+    "id": "US-006",
+    "requirement_id": "FR-006",
+    "title": "Track Transaction Status",
+    "story": "As a support user, I want to view the current payment transaction status so that I can assist customers.",
+    "priority": "High"
+  },
+  {
+    "id": "US-007",
+    "requirement_id": "FR-007",
+    "title": "Process Refund",
+    "story": "As an authorized business user, I want to process full or partial refunds so that eligible customer payments can be returned.",
+    "priority": "High"
+  },
+  {
+    "id": "US-008",
+    "requirement_id": "FR-008",
+    "title": "Validate High Risk Payments",
+    "story": "As a risk analyst, I want high-risk transactions to be validated before completion so that fraudulent transactions can be reduced.",
+    "priority": "High"
+  },
+  {
+    "id": "US-009",
+    "requirement_id": "FR-014",
+    "title": "Notify Customer After Payment Failure",
+    "story": "As a customer, I want to receive a notification after a payment failure so that I know the transaction was unsuccessful.",
+    "priority": "High"
+  },
+  {
+    "id": "US-010",
+    "requirement_id": "FR-015",
+    "title": "Search Transactions",
+    "story": "As an authorized business user, I want to search transactions by multiple identifiers so that I can quickly investigate payment activity.",
+    "priority": "Medium"
+  }
+]
